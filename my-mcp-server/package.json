@@ -7,8 +7,9 @@
 		"local-docs-mcp": "./src/index.js"
 	},
 	"scripts": {
+		"prestart": "bash src/bootup.sh",
 		"start": "node src/index.js",
-		"dev": "node --watch src/index.js"
+		"dev": "node src/index.js"
 	},
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.0.0",
